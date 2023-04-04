@@ -1,8 +1,9 @@
 version: '3'
 
 services:
-  chatgpt-server:
-    image: jachinai/chatgpt-server:latest
+  app:
+    build: .
+    image: jachinai/chatgpt-server
     container_name: chatgpt-server
     restart: always
     ports:

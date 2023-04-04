@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  chatgpt-demo:
-    image: ddiu8081/chatgpt-demo:latest
-    container_name: chatgpt-demo
+  chatgpt-server:
+    image: jachinai/chatgpt-server:latest
+    container_name: chatgpt-server
     restart: always
     ports:
         - "3000:3000"
